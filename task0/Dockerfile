@@ -1,4 +1,4 @@
-# chooses the base 
+# Base image
 FROM ubuntu:latest
 
 # Update the package index files
