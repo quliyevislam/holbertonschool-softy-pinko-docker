@@ -23,10 +23,10 @@ RUN pip3 install flask
 WORKDIR /app
 
 # Copy the api.py file
-COPY ./api.py /app/api.py 
+COPY ./api.py /app/api.py
 
 # Expose the port (unnecessary ?)
 EXPOSE 5252
 
 # Runs the flask app
-CMD ["flask", "--app", "api", "run"]
+CMD ["python3", "api.py"]
